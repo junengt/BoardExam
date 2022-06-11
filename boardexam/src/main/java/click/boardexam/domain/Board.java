@@ -36,8 +36,4 @@ public class Board {
 
     @OneToMany(mappedBy = "board", fetch = LAZY)
     private List<BoardPhoto> photoList = new ArrayList<>();
-
-    public Board() {
-
-    }
 }

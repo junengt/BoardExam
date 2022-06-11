@@ -30,7 +30,7 @@ public class BoardService {
     }
 
     @Data
-    private class BoardReqDto {
+    public class BoardReqDto {
         private String title;
         private String content;
     }
